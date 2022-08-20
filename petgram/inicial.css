@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+body {
+    background-color: #eeeeee47;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+/* Container Principal */
+.petgram-container {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    margin: auto;
+}
+/* Imagem Celular */
+.petgram-phone {
+    width: 35%;
+    margin-top: 15px;
+}
+#phone {
+    width: 100%;
+}
+/* Primeiro Box */
+.petgram-account {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.petgram-login {
+    background: #fff;
+    width: 300px;
+    border: 1px solid #80808066;
+    padding: 20px;
+    text-align: center;  
+}
+.petgram-login:nth-child(1) {
+    max-height: 80%;
+    margin-bottom: 10px;  
+}
+.petgram-login:nth-child(2) {
+    max-height: 10%;
+    margin-bottom: 20px;  
+}
+.petgram-logo {
+    width: 85%;
+    margin: auto;
+}
+.petgram-login input{
+    width: 80%;
+    height: 20px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #80808066;
+    padding: 10px;
+}
+.petgram-login input:focus {
+    background-color: #d8d8d866;
+}
+.petgram-login input::placeholder {
+    font-size: 12px;
+}
+/* Botão do Login */
+.button-login {
+    width: 88%;
+    padding: 5px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    background-color: #fe646fe3;
+    border-color: transparent;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+}
+.button-login:hover{
+    cursor: pointer;
+    background-color: #fc9aa0e3;
+}
+/* Segundo Box */
+#facebook {
+    background-color: #1877F2;
+    background-image: url("botao_facebook.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-family: 'Helvetica', sans-serif;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 2px;
+}
+#create-account {
+    font-weight: bold;
+    color: #2566ff;
+}
+#password-recover {
+    color: #2566ff;
+}
+/* Apps */
+.petgram-app {
+    display: flex;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.android {
+    width: 130px;
+}
+.android:hover {
+    cursor: pointer;
+}
+.ios {
+    width: 130px;
+}
+.ios:hover {
+    cursor: pointer;
+}
+/* Responsividade */
+@media (max-width: 1080px) {
+    .petgram-phone {
+        display: none;
+    }
+    #phone {
+        display: none;
+    }
+}

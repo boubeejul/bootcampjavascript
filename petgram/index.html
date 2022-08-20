@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inicial.css"> 
+    <link rel="icon" href="favicon.png">
+    <title>Petgram</title>
+</head>
+<body>
+    <!-- Conteúdo da Página --> 
+    <div class="petgram-container">
+        <!-- Imagem Celular -->
+        <div class="petgram-phone">
+            <img src="celular.png" id="phone" alt="Celular com foto de bicho de estimação">
+        </div>
+        <div class="petgram-account">
+            <!-- Primeiro Box -->
+            <div class="petgram-login">
+                <div class="petgram-logo">
+                    <img id="logo" src="logo.png">
+                </div>
+                <!-- Login Principal -->
+                <form>
+                    <div class="form">
+                        <input type="email" placeholder="Email" required>
+                        </div>
+                    <div class="form">
+                        <input type="password" placeholder="Senha" required>
+                        </div>
+                    <button class="button-login">Entrar</button>
+                </form>
+                <!-- Login com Facebook ou Perda de Senha */ -->
+                    <a id="facebook" href="#">Entrar com o Facebook</a>
+                    <br>
+                    <a id="password-recover" href="#">Esqueceu a senha?</a>
+                </div>
+                <!-- Segundo Box -->
+                <div class="petgram-login">
+                    <p>Não tem uma conta? <a id="create-account" href="#">Cadastre-se</a></p>
+                </div>
+                <!-- Apps -->
+                    <p style="text-align: center;">Baixe o Aplicativo</p>
+                    <div class="petgram-app">
+                    <img class="android" src="android.png">
+                    <img class="ios" src="ios.png">
+                </div>
+            </div>
+        </div>
+</body>
+</html>

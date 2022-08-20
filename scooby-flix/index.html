@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scooby-Flix</title>
+    <link rel="icon" type="image/png" href="images/icon.png"/>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/32b011f519.js" crossorigin="anonymous"></script> <!-- Ícones -->
+    <!-- Owl -->
+    <link rel="stylesheet" href="owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/owl.theme.default.min.css">
+</head>
+<body>
+
+    <!-- Logo e Menus -->
+    <header>
+        <div id="header">
+            <img id="logo" src="images/logo.png">
+            <nav>
+                <a href="#"><i class="fas fa-home"></i></a>
+                <a href="#">Filmes</a>
+                <a href="#">Séries</a>
+                <a href="#">Curtas</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Informações sobre o filme/série escolhido e botões -->
+    <section>
+        <div id="container">
+            <div id="info">
+                <h2 class="title">Scooby-Doo!: O Filme</h2>
+                <p id="description">Scooby-Doo e sua turma que resolve crimes são individualmente convocados à Ilha do Espanto para investigar uma série de incidentes paranormais no lugar mais descolado para as Férias de Primavera.</p>
+                <div id="buttons">
+                    <button class="button" role="button"><i class="fas fa-play" style="margin-right: 10px;"></i>Assistir</button>
+                    <button class="button" role="button"><i class="fas fa-plus-circle" style="margin-right: 10px;"></i>Minha Lista</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filmes -->
+    <section>
+        <div class="carousel-flix">
+            <h2 class="lists">Filmes</h2>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="media" onclick="troca('filme4')" style="width: 80%" src="images/movies/filme4.jpg">
+                </div>
+                <div class="item">
+                    <img class="media" onclick="troca('filme5')" style="width: 80%" src="images/movies/filme5.jpg">
+                </div>
+                <div class="item">
+                    <img class="media" onclick="troca('filme1')" style="width: 80%" src="images/movies/filme1.jpg">
+                </div>
+                <div class="item">
+                    <img class="media" onclick="troca('filme2')" style="width: 80%" src="images/movies/filme2.jpg">
+                </div>
+                <div class="item">
+                    <img class="media" onclick="troca('filme3')" style="width: 80%" src="images/movies/filme3.jpg">
+                </div>
+            </div>   
+        </div>
+    </section>
+
+    <!-- Séries -->
+    <section>
+        <div class="carousel-flix">
+            <h2 class="lists">Séries</h2>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="media" onclick="troca('serie1')" style="width: 80%" src="images/series/serie1.jpg">
+                </div>
+                <div class="item">
+                    <img class="media" onclick="troca('serie2')" style="width: 80%" src="images/series/serie2.jpg">
+                </div>
+                <div class="item">
+                    <img class="media" onclick="troca('serie3')" style="width: 80%" src="images/series/serie3.jpg">
+                </div>
+                <div class="item">
+                    <img class="media" onclick="troca('serie4')" style="width: 80%" src="images/series/serie4.jpg">
+                </div>
+                <div class="item">
+                    <img class="media" onclick="troca('serie5')" style="width: 80%" src="images/series/serie5.jpg">
+                </div>
+            </div>   
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+    <script src="owl/jquery.min.js"></script>
+    <script src="owl/owl.carousel.min.js"></script>
+    <script src="owl/setup.js"></script>
+    
+</body>
+</html>
