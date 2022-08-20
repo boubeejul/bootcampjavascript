@@ -1,0 +1,72 @@
+@font-face {
+    font-family: PT Sans Narrow;
+    src: url(../font/PTSansNarrow-Bold.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+body {
+    background-image: linear-gradient(to right, #fff1f1, #ffcab5);
+    font-family: Arial;
+    font-size: 12px;
+}
+#container {
+    width: 663px;
+    height: 576px;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    margin: auto;
+}
+#background {
+    width: 663px;
+    height: 476px;
+    background-image: url(../images/others/background.png);
+    background-size: cover;
+    margin: auto;
+    border: 2px solid #f0b9b3;
+}
+#tutorial {
+    background: #ffffffd4;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: #2b2b2b;
+    box-shadow: 0px 1px 2px 0px #b39d8a;
+}
+#title {
+    animation-name: rubberBand;
+    animation-duration: 1.5s;
+}
+#button {
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: #f26252;
+    padding: 15px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    color: #fff;
+    box-shadow: 0px 1px 1px #84472ec4;
+    text-shadow: 1px 1px 1px #882419;
+}
+#button:hover{
+    cursor: pointer;
+    background-color: #f2625278;
+}
+#inicio {
+    width: 300px;
+    margin: auto;
+    margin-top: 5%;
+}
+#scores {
+    font-family: 'PT Sans Narrow';
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+}

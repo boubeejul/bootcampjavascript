@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save the Fofinho</title>
+    <link rel="stylesheet" href="css/start.css">
+    <link rel="stylesheet" href="css/characters.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="background">
+            <div id="inicio">
+                <img id="title" src="images/others/title.png">
+                <p id="tutorial">Use WASD para se movimentar e J para atirar. Não deixe Fofinho ser atingido. Derrote o fantasma para ganhar.</p>
+                <p id="button" onclick="start()">Começar!</p>
+            </div>
+        </div>
+    </div>
+
+    <audio src="audio/ataque.wav" preload="auto" id="somAtaque"></audio>
+    <audio src="audio/fofinho.wav" preload="auto" id="fofinhoSalvo"></audio>
+    <audio src="audio/game.mp3" preload="auto" id="somJogo"></audio>
+    <audio src="audio/gameover2.wav" preload="auto" id="fofinhoPego"></audio>
+    <audio src="audio/jogador.mp3" preload="auto" id="jogador"></audio>
+    <audio src="audio/gameover_fofinho.wav" preload="auto" id="gameEnd"></audio>
+
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <script type="text/javascript" src="js/jquery-collision.min.js"></script>
+</body>
+</html>

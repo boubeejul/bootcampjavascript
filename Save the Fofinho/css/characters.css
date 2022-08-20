@@ -1,0 +1,53 @@
+#player {
+    background-image: url(../images/sorceress/water.png);
+    width: 100px;
+    height: 110px;
+    position: absolute;
+    left: 8px;
+    top: 150px;
+}
+#fofinho {
+    background-image: url(../images/fofinho/Pink_Monster_Run_6.png);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 20px;
+    top: 410px;
+}
+#enemy1 {
+    background-image: url(../images/ghost/ghost-idle.png);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 8px;
+}
+#enemy2 {
+    background-image: url(../images/demon/hell-hound-walk.png);
+    width: 90px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 410px;
+}
+#attack1 {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background: url(../images/sorceress/1.png);
+}
+#lifenemy {
+    width: 90px;
+    height: 17px;
+    position: absolute;
+    background-image: url(../images/demon/lifenemy_5.png);
+    right: 8px;
+    top: 5px;
+}
+#lifeplayer {
+    width: 51px;
+    height: 17px;
+    position: absolute;
+    background-image: url(../images/sorceress/lifeplayer_3.png);
+    left: 8px;
+    top: 5px;
+}

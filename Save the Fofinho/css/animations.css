@@ -1,0 +1,81 @@
+@keyframes play {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -300px;
+    }
+}
+@keyframes play2 {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -303px;
+    }
+}
+@keyframes play3 {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -616px;
+    }
+}
+@keyframes play4 {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -1200px;
+    }
+}
+@keyframes play5 {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -400px;
+    }
+}
+@keyframes rubberBand {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+    30% {
+      transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      transform: scale3d(.95, 1.05, 1);
+    }
+    75% {
+      transform: scale3d(1.05, .95, 1);
+    }
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+}
+.animation1 {
+    animation: play .8s steps(6) infinite;
+}
+.animation2 {
+    animation: play2 .7s steps(3) infinite;
+}
+.animation3 {
+    animation: play3 .9s steps(7) infinite;
+}
+.animation4 {
+    animation: play4 .8s steps(12) infinite;
+}
+.animation5 {
+    background-image: url(../images/fofinho/Pink_Monster_Death_8.png);
+    width: 50px;
+    height: 50px;
+    animation: play5 .8s steps(8) infinite;
+}

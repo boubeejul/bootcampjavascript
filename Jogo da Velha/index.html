@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="container">
+        <div id="jogo">
+            <div id="coluna1">
+                <div id="1" class="quadrado" onclick="escolha(this.id)">-</div>
+                <div id="2" class="quadrado" onclick="escolha(this.id)">-</div>
+                <div id="3" class="quadrado" onclick="escolha(this.id)">-</div>
+            </div>
+
+            <div id="coluna2">
+                <div id="4" class="quadrado" onclick="escolha(this.id)">-</div>
+                <div id="5" class="quadrado" onclick="escolha(this.id)">-</div>
+                <div id="6" class="quadrado" onclick="escolha(this.id)">-</div>
+            </div>
+
+            <div id="coluna3">
+                <div id="7" class="quadrado" onclick="escolha(this.id)">-</div>
+                <div id="8" class="quadrado" onclick="escolha(this.id)">-</div>
+                <div id="9" class="quadrado" onclick="escolha(this.id)">-</div>
+            </div>
+        </div>
+        <div id="menu">
+            <label id="jogador_menu">Jogador: <span id="jogador"></span></label>
+            <button onclick="reiniciar()">Reiniciar</button>
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
