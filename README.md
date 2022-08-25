@@ -1,4 +1,4 @@
-# Javscript Game Developer Bootcamp
+# Javascript Game Developer Bootcamp
 
 - <b>Petgram</b>
 <div align="center">
